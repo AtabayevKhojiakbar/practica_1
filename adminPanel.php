@@ -1,7 +1,7 @@
 <?php
     require_once "connect.php";
     $users = "users";
-    $password = "12345";
+    $password = "123456";
     if(isset($_POST['submit'])){
         if($_POST['username']==$users and $_POST['password']==$password){
 
